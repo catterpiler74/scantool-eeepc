@@ -14,6 +14,6 @@ The old fonts for sensor outputs are too small. By enlarging the fonts, it creat
 
 [http://scantool-eeepc.googlecode.com/files/original_layout.JPG]
 
-The new layout: Less sensors per page, bigger fonts.
+The new layout has less sensors per page and bigger fonts. This should increase readability when used inside of a vehicle esepcially while driving.
 
 [http://scantool-eeepc.googlecode.com/files/new_layout.JPG]
