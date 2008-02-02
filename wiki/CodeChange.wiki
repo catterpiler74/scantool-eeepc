@@ -1,9 +1,8 @@
-#summary One-sentence summary of this page.
+#summary Changes to the code
 
 = Introduction =
 
-Add your content here.
-
+The original ScanTool would not run on EEE-PC's native resolution of 800x480 because it is hardcoded to run at 640x480.
 
 = Details =
 
