@@ -4,6 +4,8 @@
 
 The original ScanTool would not run on EEE-PC's native resolution of 800x480 because it is hardcoded to run at 640x480.
 
+[http://scantool-eeepc.googlecode.com/files/cannot_set_video.JPG]
+
 = Details =
 
 Add your content here.  Format your content with:
