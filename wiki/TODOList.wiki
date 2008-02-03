@@ -1,0 +1,8 @@
+#summary TODO List
+
+= Details =
+
+1. Hardcode it to start in windowed mode to save time
+2. Refresh all sensors instead of ones in the page
+3. Fuel economy
+4. Hide the console window
