@@ -9,3 +9,5 @@
 3. Fuel economy
 
 4. Hide the console window
+
+5. Disable all sensors that are not supported so that ECU doesn't timeout (hopefully)
