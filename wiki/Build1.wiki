@@ -1,0 +1,19 @@
+#summary Change Log
+
+= Introduction =
+
+All the changes in the code are marked with a EEEPC_BUILD1 build flag. 
+
+= Details =
+
+Added Fuel Effeciency Gauge, available in MPG and L/100Km. The fuel effeciency is calculated using Mass Air Flow & Vehicle Speed. Here is an explanation of how it is calculated:
+
+Mass Air Flow (MAF) sensor returns the Mass of Air that flows through the intake system x 100. So in order to get the unit, gram per second, the value is divided by 100.
+
+Modern ECUs try to keep the Air / Fuel mixture ratio within the combustion chamber around 14.7 because it is the most effecienct ratio. This only applies when the system is in "closed loop", meaning that the speed stays quite constant.
+
+From the Air / Fuel mixture ratio, the mass of fuel consumed can be calculated. Divide the mass by the density of fuel, the volume can be estimated.
+
+Fuel Effeciency in L/100Km = Volume of fuel consumed (L/Hour) / vehicle speed (Km/Hour) x 100
+
+This is just an estimated fuel effeciency, and should only be accurate in "closed loop". It should be more accurate when the result is adjusted with the fuel trim / O2 sensor output.
