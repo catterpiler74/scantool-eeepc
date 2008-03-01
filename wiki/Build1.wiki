@@ -12,11 +12,11 @@ Mass Air Flow (MAF) sensor returns the Mass of Air that flows through the intake
 
 Modern ECUs try to keep the Air / Fuel mixture ratio within the combustion chamber around 14.7 because it is the most efficiency ratio. This only applies when the system is in "closed loop", meaning that the speed stays quite constant.
 
-From the Air / Fuel mixture ratio, the mass of fuel consumed can be calculated. Divide the mass by the density of fuel, the volume can be estimated.
+From the Air / Fuel mixture ratio, the mass of fuel consumed can be calculated. Divide the mass by the density of fuel, the volume can be estimated. To be more accurate, this is adjusted with the short term fuel trim.
 
 Fuel Efficiency in L/100Km = Volume of fuel consumed (L/Hour) / vehicle speed (Km/Hour) x 100
 
-This is just an estimated fuel efficiency, and should only be accurate in "closed loop". It should be more accurate when the result is adjusted with the fuel trim / O2 sensor output. However, some cars, such as mine, only has narrow-band O2 sensor, which only output certain values such as 0.0%, +0.8%, +0.15%, +0.23% and etc.
+This is just an estimated fuel efficiency, and should only be accurate in "closed loop" and at a consistent speed. Some cars, such as mine, only has narrow-band O2 sensor. I'm not sure how much that would affect the error.
 
 I tested this on my 2004 Mazda 3 2.0L Automatic. The result was about 8 L/100Km at 50 Km/h. This value was not adjusted with O2 sensor output. As a comparison, Mazda 3 2.3L has a fuel efficiency of 9.2L/100Km. The 1.2L/100Km difference may come from the engine size, BuddyClub Condenser, and after-market 16" lightweight rims. Each of those rims is 7 lbs. lighter than 2.3L's stock 17" alloy rim.
 
