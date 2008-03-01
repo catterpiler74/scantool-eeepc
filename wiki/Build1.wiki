@@ -23,3 +23,5 @@ I tested this on my 2004 Mazda 3 2.0L Automatic. The result was about 8 L/100Km 
 Here is a screen shot, taken with a camera. Sorry for the blurry picture, it's hard to focus when the road is bumpy.
 
 [http://scantool-eeepc.googlecode.com/files/fuel_efficiency.jpg]
+
+The fuel density is set in scantool.cfg, default is set to 711.5 (90% gasoline + 10% ethanol). If you use 100% gasoline, try 702.5. I don't think this would work with diesel because it works differently.
