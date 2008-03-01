@@ -2,11 +2,11 @@
 
 = Introduction =
 
-All the changes in the code are marked with a EEEPC_BUILD1 build flag. 
+All the changes in the code are marked with a EEEPC_BUILD1 build flag. The codes were done in a quick & dirty way because I want to keep the original structure of the program.
+
+Added Fuel Efficiency Gauge, available in MPG and L/100Km. The fuel efficiency is calculated using Mass Air Flow, Vehicle Speed and Short Term Fuel Trim. 
 
 = Details =
-
-Added Fuel Efficiency Gauge, available in MPG and L/100Km. The fuel efficiency is calculated using Mass Air Flow & Vehicle Speed. Here is an explanation of how it is calculated:
 
 Mass Air Flow (MAF) sensor returns the Mass of Air that flows through the intake system x 100. So in order to get the unit, gram per second, the value is divided by 100.
 
@@ -19,3 +19,7 @@ Fuel Efficiency in L/100Km = Volume of fuel consumed (L/Hour) / vehicle speed (K
 This is just an estimated fuel efficiency, and should only be accurate in "closed loop". It should be more accurate when the result is adjusted with the fuel trim / O2 sensor output. However, some cars, such as mine, only has narrow-band O2 sensor, which only output certain values such as 0.0%, +0.8%, +0.15%, +0.23% and etc.
 
 I tested this on my 2004 Mazda 3 2.0L Automatic. The result was about 8 L/100Km at 50 Km/h. This value was not adjusted with O2 sensor output. As a comparison, Mazda 3 2.3L has a fuel efficiency of 9.2L/100Km. The 1.2L/100Km difference may come from the engine size, BuddyClub Condenser, and after-market 16" lightweight rims. Each of those rims is 7 lbs. lighter than 2.3L's stock 17" alloy rim.
+
+Here is a screen shot, taken with a camera. Sorry for the blurry picture, it's hard to focus when the road is bumpy.
+
+[http://scantool-eeepc.googlecode.com/files/fuel_efficiency.jpg]
